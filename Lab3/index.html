@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/logo.svg">
+    <link rel="stylesheet" href="css/main.css">
+    <title>HeliComp</title>
+</head>
+<body>
+
+    <header class="navbar">
+        <img src="img/logo.svg" alt="logo">
+        <h2>HeliComp</h2>
+    </header>
+
+    <main>
+
+        <section class="options">
+
+            <h3>Enter the max speed of Helicopter</h3>
+            <input id="find_input" type="text">
+            <div class="select_buttons">
+                <button id="find_button" type="button">Find</button>
+                <button id="reset_button" type="button">Reset</button>
+            </div>
+            <h3>Sort by decrease of speed</h3>
+            <button id="sort_by_decrease_of_price" type="button">Sort</button>
+            <h3>Sort by increase of speed</h3>
+            <button id="sort_by_increase_of_price" type="button">Sort</button>
+
+            <p id="priceCount" class="priceCount">Total value of Helicopters on page:</p>
+
+        </section>
+
+        <div id="tree_container" class="wrapper"></div>
+    </main>
+
+    <script type="module" src="js_modules/index.js"></script>
+    
+</body>
+</html>

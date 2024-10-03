@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Airbus",
+        "passenger_capacity": 5,
+        "max_speed": 250
+    },
+    {
+        "id": 2,
+        "name": "Bell",
+        "passenger_capacity": 6,
+        "max_speed": 260
+    },
+    {
+        "id": 3,
+        "name": "Sikorsky",
+        "passenger_capacity": 4,
+        "max_speed": 240
+    },
+    {
+        "id": 4,
+        "name": "Boeing",
+        "passenger_capacity": 8,
+        "max_speed": 270
+    },
+    {
+        "id": 5,
+        "name": "Leonardo",
+        "passenger_capacity": 5,
+        "max_speed": 255
+    },
+    {
+        "id": 6,
+        "name": "Kawasaki",
+        "passenger_capacity": 7,
+        "max_speed": 265
+    },
+    {
+        "id": 7,
+        "name": "Enstrom",
+        "passenger_capacity": 6,
+        "max_speed": 260
+    },
+    {
+        "id": 8,
+        "name": "Robinson",
+        "passenger_capacity": 3,
+        "max_speed": 230
+    },
+    {
+        "id": 9,
+        "name": "MD",
+        "passenger_capacity": 7,
+        "max_speed": 275
+    },
+    {
+        "id": 10,
+        "name": "UA",
+        "passenger_capacity": 4,
+        "max_speed": 250
+    }
+]
