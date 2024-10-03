@@ -1,0 +1,60 @@
+.testimonials{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #F8F8F8;
+    margin-top: 115px;
+
+    div{
+        padding-left: 240px;
+
+        h1{
+            color: #000;
+            font-family: Playfair Display;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 50px;
+            margin-top: 79px;
+        }
+
+        img{
+            margin-top: 145px;
+        }
+
+        p{
+            color: #000;
+            font-family: Mulish;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 36px;
+            margin-top: 30px;
+            width: 450px;
+        }
+
+        h5{
+            color: #000;
+            font-family: Inter;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 48px;
+            margin-top: 40px;
+        }
+
+        h6{
+            color: rgba(0, 0, 0, 0.85);
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            margin-bottom: 180px;
+        }
+    }
+
+    .ManWithCamera{
+        margin-top: 190px;
+        margin-left: 100px;
+        border-radius: 14px;
+    }
+}

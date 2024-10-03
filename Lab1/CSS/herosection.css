@@ -1,0 +1,53 @@
+.herosection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 140px;
+
+    div{
+        padding-left: 159px;
+        padding-top: 152px;
+
+        h1{
+            color: #000;
+            font-family: Playfair Display;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 50px;
+            width: 400px;
+            margin-bottom: 20px;
+        }
+
+        p{
+            color: #7D7987;
+            font-family: Mulish;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 30px;
+            width: 420px;
+            margin-bottom: 35px;
+        }
+
+        a{
+            all: unset;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            background: #FB8F1D;
+            width: 164px;
+            height: 48px;
+            color: #FFF;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+
+    img{
+        margin-left: -90px;
+    }
+}
