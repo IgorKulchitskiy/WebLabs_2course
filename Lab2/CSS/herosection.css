@@ -1,0 +1,109 @@
+.herosection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 110px;
+
+    div{
+        max-width: 450px;
+
+        .main-title{
+            color: #000;
+            font-family: Playfair Display;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 50px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .main-parag{
+            color: #7D7987;
+            font-family: Mulish;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 30px;
+            width: 100%;
+            margin-bottom: 35px;
+        }
+
+        .download-button{
+            all: unset;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            background: #FB8F1D;
+            width: 164px;
+            height: 48px;
+            color: #FFF;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .download-button:hover {
+            background-color: #FFF;
+            color: #FB8F1D;
+            border: #FB8F1D 1px solid;
+        }
+    }
+
+    .main-title-img {
+        width: 40%;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 1038px){
+    .main-title-img{
+        width: 45% !important
+    }
+}
+
+@media (max-width: 880px) {
+    .herosection {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .herosection div {
+        width: 80%;
+        max-width: 100%;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    .main-title, .main-parag {
+        width: 100%;
+    }
+
+    .main-title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .main-parag {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    .download-button {
+        width: 100%;
+        max-width: 180px;
+        height: 44px;
+    }
+
+    .main-title-img {
+        width: 60% !important; 
+        margin-top: 30px;
+    }
+}
