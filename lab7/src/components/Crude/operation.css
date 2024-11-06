@@ -1,0 +1,96 @@
+.operationWrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.inputFindResetButtons, .findResetButtons, .sortButtons{
+    display: flex;
+    gap: 10px;
+}
+
+.sortWrapper{
+    margin: 0 10px;
+}
+
+h3{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#find_input {
+    width: 200px;
+    height: 25px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+#find_input:focus {
+    border-color: #4a90e2;
+}
+
+
+#find_button, #reset_button, #sort_by_of_price{
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    font-family: Inter;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+#find_button {
+    background-color: #4a90e2;
+}
+
+#find_button:hover {
+    background-color: #357ABD;
+}
+
+#reset_button {
+    background-color: #ff3b30;
+}
+
+#reset_button:hover {
+    background-color: #cc2a21;
+}
+
+#sort_by_of_price{
+    background-color: #ffa500;
+}
+
+#sort_by_of_price:hover {
+    background-color: #e69500;
+}
+
+@media (max-width: 905px){
+    .operationWrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    h3{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 520px){
+    .inputFindResetButtons{
+        flex-direction: column;
+        align-items: center;
+    }
+}

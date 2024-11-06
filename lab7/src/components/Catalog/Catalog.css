@@ -1,0 +1,102 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+    height: 100%;
+    margin: 20px auto;
+    width: 70%;
+
+    .card_of_heli{
+        width: 250px;
+        /* height: 320px; */
+        height: 290px;
+        background-color: #ff8e32;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-family: Inter;
+        line-height: 1.4;
+        border-radius: 5px;
+        padding-left: 3px;
+
+        .place_for_img{
+            width: 247px;
+            border-radius: 7px;
+            margin-top: 3px;
+        }
+    }
+
+    .card_of_heli:hover{
+        transform: scale(1.05);
+        transition: all 0.5s ease;
+    }
+
+    .warnMessage{
+        color: red;
+        font-size: 16px;
+    }
+}
+
+.heli_edit_delete{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+
+    .edit_button, .delete_button{
+        all: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 30px;
+        font-family: Inter;
+        border-radius: 8px;
+        font-weight: 600;
+        color: #fff;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s;
+    }
+
+    .edit_button {
+        background-color: #4a90e2;
+    }
+    
+    .edit_button:hover {
+        background-color: #357ABD;
+    }
+
+    .delete_button {
+        background-color: #ff3b30;
+    }
+    
+    .delete_button:hover {
+        background-color: #cc2a21;
+    }
+}
+
+@media (max-width: 1150px) {
+    .wrapper{
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 90%;
+    }
+}
+
+@media (max-width: 905px){
+    .wrapper{
+        grid-template-columns: 1fr 1fr;
+        width: 70%;
+    }
+}
+
+@media (max-width: 780px){
+    .wrapper{
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px){
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
+}
