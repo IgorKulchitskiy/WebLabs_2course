@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Airbus",
+        "passenger_capacity": 5,
+        "max_speed": 250,
+        "material": "Titanium"
+    },
+    {
+        "id": 2,
+        "name": "Bell",
+        "passenger_capacity": 6,
+        "max_speed": 260,
+        "material": "Aluminum"
+    },
+    {
+        "id": 3,
+        "name": "Sikorsky",
+        "passenger_capacity": 4,
+        "max_speed": 240,
+        "material": "Composite"
+    },
+    {
+        "id": 4,
+        "name": "Boeing",
+        "passenger_capacity": 8,
+        "max_speed": 270,
+        "material": "Steel"
+    },
+    {
+        "id": 5,
+        "name": "Leonardo",
+        "passenger_capacity": 5,
+        "max_speed": 255,
+        "material": "Carbon Fiber"
+    },
+    {
+        "id": 6,
+        "name": "Kawasaki",
+        "passenger_capacity": 7,
+        "max_speed": 265,
+        "material": "Aluminum"
+    },
+    {
+        "id": 7,
+        "name": "Enstrom",
+        "passenger_capacity": 6,
+        "max_speed": 260,
+        "material": "Steel"
+    },
+    {
+        "id": 8,
+        "name": "Robinson",
+        "passenger_capacity": 3,
+        "max_speed": 230,
+        "material": "Aluminum"
+    },
+    {
+        "id": 9,
+        "name": "MD",
+        "passenger_capacity": 7,
+        "max_speed": 275,
+        "material": "Composite"
+    },
+    {
+        "id": 10,
+        "name": "UA",
+        "passenger_capacity": 4,
+        "max_speed": 250,
+        "material": "Carbon Fiber"
+    }
+]

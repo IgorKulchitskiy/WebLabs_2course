@@ -1,0 +1,5 @@
+fastapi~=0.102.0
+SQLAlchemy~=2.0.35
+pydantic~=2.5.3
+pytz~=2024.2
+asyncpg~=0.28.0
