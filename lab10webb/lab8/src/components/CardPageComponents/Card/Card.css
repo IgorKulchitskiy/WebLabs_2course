@@ -1,0 +1,41 @@
+.card_of_tree_cart{
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Inter;
+    line-height: 1.4;
+    background-color: rgb(248, 246, 211);
+    border-radius: 5px;
+    gap: 10px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 5px 15px 5px 5px;
+}
+
+.place_for_img_cart{
+    width: 120px;
+    border-radius: 3px;
+}
+
+.carrtInfo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blocc{
+    width: 210px;
+}
+
+.prr{
+    width: 90px;
+}
+
+.plusminus{
+    display: flex;
+    gap: 10px;
+}
+
+.priceANDdelete{
+    display: flex;
+}

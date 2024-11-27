@@ -1,0 +1,38 @@
+.operationWrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.inputFindResetButtons{
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h3{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (max-width: 905px){
+    .operationWrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    h3{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 520px){
+    .inputFindResetButtons{
+        flex-direction: column;
+        align-items: center;
+    }
+}
