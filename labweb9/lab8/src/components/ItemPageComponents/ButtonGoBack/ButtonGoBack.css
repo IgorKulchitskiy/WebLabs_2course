@@ -1,0 +1,25 @@
+.gobackbtn{
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #FB8F1D;
+    border: #FB8F1D 1px solid;
+}
+
+.gobackbtn:hover {
+    background-color: #FB8F1D;
+    color: #FFF;
+}
+

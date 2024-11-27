@@ -1,0 +1,39 @@
+.treeimg{
+    border-radius: 15px;
+    width: 550px;
+}
+
+.mainsection{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.mainDesc{
+    font-family: Inter;
+    font-size: 28px;
+}
+
+.moreInfo{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.height_material{
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+}
